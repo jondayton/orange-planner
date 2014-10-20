@@ -1,0 +1,23 @@
+<nav class="top-bar">
+    <ul class="title-area">
+        <!-- Title Area -->
+        <li class="name"><img src="http://orangeplanner.com/images/orange.png" ></li>
+        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    </ul>
+
+    <section class="top-bar-section">
+        <!-- Left Nav Section -->
+        <ul class="right">
+            <li class="divider"></li>
+            <li>
+              {{#link-to "budgets" }}
+                Budget
+              {{/link-to}}
+            </li>
+            <li class="divider"></li>
+            <li>{{ link-to "plans" }}</li>
+            <li class="divider"></li>
+            <li>{{ link-to "manage" }}</li>
+        </ul>
+    </section>
+</nav>
